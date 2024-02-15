@@ -1,0 +1,45 @@
+// Styles for navigation in the header
+.header{
+    // Styles for the navigation bar
+    .header__nav{
+        width: $navWidth;
+        height: $navHeight;
+        background-color: $navBackGroundColor;
+        position: $navPosition;
+        display: $navDisplay;
+        justify-content: $navJustifyContent;
+        z-index: $navZ-Index;
+        color: $navTextColor;
+        line-height: $navLineHeight;
+        // Styles for the heading inside the navigation bar
+        .header__heading{
+            cursor: pointer;
+        }
+        // Styles for the shopping cart section inside the navigation bar
+        .header__shop_card{
+            position: $shopcardPosition;
+            padding: $shopcardPadding;
+            width:$shopcardWidth;
+            cursor: pointer;
+            font-size: $shopcardFS;
+            // Styles for the shopping cart icon
+            .card{
+                font-size: $shopcardIconFS;
+                text-align: $shopcardIconTextAlign;
+            }
+            // Styles for the number of items in the shopping cart
+            .header__shop_card-Items{
+                position : $shopcardItemsPosition;
+                top : $shopcardItemsTop;
+                right : $shopcardItemsright;
+                height : $shopcardItemsHeight;
+                width : $shopcardItemsWidth;
+                font-size : $shopcardItemsFS;
+                text-align : $shopcardItemsTextAlign;
+                border-radius : $shopcardItemsBorderRadius;
+                background-color : $shopcardItemsBG;
+                line-height : $shopcardItemsLineHeight;
+            }
+        }
+    }
+}

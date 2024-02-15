@@ -1,0 +1,25 @@
+// Variables for Slider
+$sliderMinHeight : calc(50vh - 50px);
+$sliderBGImage : "../images/foodcourtBanner.jpg";
+$sliderBGPosition : center;
+$sliderBGRepeat : no-repeat;
+$sliderBGSize : cover;
+$sliderDisplay : flex;
+$sliderDirection : column;
+$sliderJustifyContent : center;
+
+// Variables for Slider Banner
+$sliderBannerBG : rgba(128, 128, 128, 0.473);
+$sliderBannerTextAlign : center;
+
+// Variables for Slider Banner H2
+$sliderBannerH2FontSize : 70px;
+$sliderBannerH2Color : yellow;
+$sliderBannerH2TextShadow : 2px 1px 1px whitesmoke , 5px 2px 1px purple;
+
+// Variables for Slider Banner P
+$sliderBannerPFontSize : 20px;
+$sliderBannerPColor : white;
+$sliderBannerPFontWeight : bold;
+$sliderBannerPTextShadow : 2px 2px 1px black;
+$sliderBannerPFontStyle : oblique;

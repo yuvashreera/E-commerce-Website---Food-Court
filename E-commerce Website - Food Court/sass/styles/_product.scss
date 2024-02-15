@@ -1,0 +1,94 @@
+// Products Category Styling
+.productsCategory{
+    font-size: $productCategoryFontSize;
+    @include fontGreatVibes;
+    color : $productCategoryColor;
+    text-shadow: $productCategoryTextShadow;
+    text-align : $productCategoryTextAlign;
+    background-color: $productCategoryBG;
+    padding : $productCategoryPadding;
+}
+
+// Products Container Styling
+.productsContainer{
+    width : $productContainerWidth;
+    margin : $productContainerMargin;
+    display: $productContainerDisplay;
+    grid-template-columns: $productContainerGridTemplateColumns;
+    gap : $productContainerGap;
+    // Styles for each product section inside the container
+    .products{
+        background-color: $productsBG;
+        box-shadow: $productsBoxShadow;
+        position : $productsPosition;
+        // Styles for the image container within each product
+        .imageContainer{
+            height : 200px;
+            overflow: hidden;
+            // Styles for the image within the container
+            .imageContainer__items{
+                width : $imageItemWidth;
+                height : $imageItemHeight;
+                object-fit: cover;
+                cursor: pointer;
+                &:hover{
+                    transform : scale(120%);
+                    transition: all 0.5s linear;
+                }
+            }
+        }
+        // Styles for the "Add to Cart" button
+        .add-to-cart-item{
+            position : $addToCartPosition;
+            top : $addToCartTop;
+            left : $addToCartLeft;
+            width : $addToCartWidth;
+            height : $addToCartHeight;
+            border: $addToCartBorder;
+            background-color: $addToCartBG;
+            color : $addToCartColor;
+            font-size : $addToCartFS;
+            font-weight: $addToCartFW;
+            cursor: pointer;
+            &:hover{
+                background-color: navy;
+                transition : all 0.3s linear 0.2s;
+            }
+        }
+        // Styles for the "Favorite" button
+        .fav-item{
+            position: $favItemPosition;
+            top : $favItemTop;
+            right : $favItemRight;
+            border: $favItemBorder;
+            background-color: $favItemBG;
+            color : $favItemColor;
+            font-size : $favItemFS;
+            cursor: pointer;
+            &:hover{
+                color: yellow;
+                transition : all 0.3s linear 0.2s;
+            }
+        }
+        // Styles for the food names
+        .foodName{
+            text-align: $foodTextAlign;
+            color : $foodColor;
+            font-weight: $foodFW;
+        }
+        // Styles for the company names
+        .companyName{
+            margin-top: $companyMT;
+            text-align: $companyTextAlign;
+            color : $companyColor;
+        }
+        // Styles for the cost
+        .cost{
+            background-color: $costBG;
+            padding: $costPadding;
+            display: $costDisplay;
+            justify-content: $costJustifyContent;
+            color: $costColor;
+        }
+    }
+}

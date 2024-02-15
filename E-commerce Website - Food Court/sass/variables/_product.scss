@@ -1,0 +1,61 @@
+// Variables for Product Categories
+$productCategoryFontSize : 50px;
+$productCategoryColor : green;
+$productCategoryTextShadow : 2px 2px 1px black , 2px 2px 1px whitesmoke;
+$productCategoryTextAlign : center;
+$productCategoryBG : orange;
+$productCategoryPadding : 5px;
+
+// Variables for Product Container
+$productContainerWidth : 90vw;
+$productContainerMargin : 20px auto;
+$productContainerDisplay : grid;
+$productContainerGridTemplateColumns : repeat(auto-fit,minmax(260px,1fr));
+$productContainerGap : 2rem 1.5rem;
+
+// Variables for Each Product Container
+$productsBG : white;
+$productsBoxShadow : 4px 2px 5px black;
+$productsPosition : relative;
+
+// Variables for Image Containers in Each Product
+$imageItemWidth : 100%;
+$imageItemHeight : 100%;
+
+// Variables for Add To Cart Button
+$addToCartPosition : absolute;
+$addToCartTop : 0;
+$addToCartLeft : 0;
+$addToCartWidth : 110px;
+$addToCartHeight : 40px;
+$addToCartBorder : none;
+$addToCartBG : gray;
+$addToCartColor : white;
+$addToCartFS : 0.9rem;
+$addToCartFW : bold;
+
+// Variables for Food Items Button
+$favItemPosition : absolute;
+$favItemTop : 5px;
+$favItemRight : 5px;
+$favItemBorder : none;
+$favItemBG : transparent;
+$favItemColor : white;
+$favItemFS : 1.2rem;
+
+// Variables for Food Name
+$foodTextAlign : center;
+$foodColor : orange;
+$foodFW : bold;
+
+// Variables for Company Name
+$companyMT : 10px;
+$companyTextAlign : center;
+$companyColor : navy;
+
+// Variables for Cost
+$costDisplay : flex;
+$costPadding : 5px;
+$costJustifyContent : space-between;
+$costColor : white;
+$costBG : navy;

@@ -1,0 +1,12 @@
+// Reset styles for all elements
+* {
+    margin: $resetMargin; 
+    padding: $resetPadding; 
+    box-sizing : $resetBoxSizing;
+}
+
+// Body styles
+body{
+    background-color: $bodyBackgroundColor;
+    @include fontRoboto; 
+}

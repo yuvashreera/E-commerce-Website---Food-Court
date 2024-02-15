@@ -1,0 +1,32 @@
+// Variables for styling the navigation bar
+$navWidth: 100%;
+$navHeight: 50px;
+$navBackGroundColor: purple;
+$navPosition : fixed;
+$navDisplay : flex;
+$navJustifyContent : space-around;
+$navZ-Index : 1;
+$navTextColor: white;
+$navLineHeight: 50px;
+
+// Variables for styling the shopping card within the navigation bar
+$shopcardPosition : relative;
+$shopcardPadding : 5px;
+$shopcardWidth : 50px;
+$shopcardFS : 25px;
+
+// Variables for styling the shopping card icon within the navigation bar
+$shopcardIconFS : 1.5rem;
+$shopcardIconTextAlign : center;
+
+// Variables for styling the items within the shopping card within the navigation bar
+$shopcardItemsPosition : absolute;
+$shopcardItemsTop : 10px;
+$shopcardItemsright : 10px;
+$shopcardItemsHeight : 20px;
+$shopcardItemsWidth : 20px;
+$shopcardItemsFS : 0.8rem;
+$shopcardItemsTextAlign : center;
+$shopcardItemsBorderRadius : 50%;
+$shopcardItemsBG : gray;
+$shopcardItemsLineHeight : 20px;

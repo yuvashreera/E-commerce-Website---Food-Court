@@ -1,0 +1,26 @@
+// Menus styles
+.menuItem{
+    background-color: $menuItemBG;
+    display: $menuItemDisplay;
+    justify-content: $menuItemJustifyContent;
+    flex-wrap: $menuItemBGFlexWrap;
+    // Styles for the unordered list (ul) inside the menu
+    ul{
+        list-style-type: none;
+        // Styles for each list item (li) inside the menu
+        li{
+            display: $menuItemListDisplay;
+            height: $menuItemListHeight;
+            line-height: $menuItemListLineHeight;
+            padding: $menuItemListPadding;
+            // Styles for the anchor tags (a) inside each list item
+            a{
+                text-decoration: none;
+                color: $menuItemListAnchorColor1;
+                &:hover{
+                    color: $menuItemListAnchorColor2;
+                }
+            }
+        }
+    }
+}

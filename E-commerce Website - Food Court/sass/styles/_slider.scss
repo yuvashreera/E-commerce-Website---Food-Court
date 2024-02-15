@@ -1,0 +1,46 @@
+// Slider styles
+.slider{
+    min-height: $sliderMinHeight;
+    background-image: url($sliderBGImage);
+    background-position: $sliderBGPosition;
+    background-repeat: $sliderBGRepeat;
+    background-size: $sliderBGSize;
+    display: $sliderDisplay;
+    flex-direction: $sliderDirection;
+    justify-content: $sliderJustifyContent;
+    // Styles for the banner inside the slider
+    .slider__banner{
+        background-color: $sliderBannerBG;
+        text-align: $sliderBannerTextAlign;
+        // Styles for the heading (h2) inside the banner
+        h2{
+            font-size: $sliderBannerH2FontSize;
+            @include fontDancing;
+            color:$sliderBannerH2Color;
+            text-shadow: $sliderBannerH2TextShadow;
+            cursor: pointer;
+            animation: slideAnimation 1s ease-in-out 0.5s 1 normal forwards;
+            &:hover{
+                transform : scale(120%);
+                transition : all 1s ease-in-out 0.5s;
+            }
+        }
+        // Animation for h2
+        @keyframes slideAnimation {
+            0%{
+                transform : translateY(-100%);
+            }
+            100%{
+                transform : translateY(0);
+            }
+        }
+        // Styles for the paragraph (p) inside the banner
+        p{
+            font-size: $sliderBannerPFontSize;
+            color:$sliderBannerPColor;
+            font-weight: $sliderBannerPFontWeight; 
+            text-shadow: $sliderBannerPTextShadow;
+            font-style: $sliderBannerPFontStyle;
+        }
+    }
+}
