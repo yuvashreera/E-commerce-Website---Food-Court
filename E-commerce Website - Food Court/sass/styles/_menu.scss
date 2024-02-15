@@ -9,6 +9,7 @@
         list-style-type: none;
         // Styles for each list item (li) inside the menu
         li{
+            flex-grow: 1;
             display: $menuItemListDisplay;
             height: $menuItemListHeight;
             line-height: $menuItemListLineHeight;

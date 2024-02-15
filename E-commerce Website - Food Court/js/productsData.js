@@ -1,9 +1,9 @@
-export const productsData = [
+export const itemCollection = [
     {
         imageSrc: '../images/Alfredo Pasta.jpg',
         foodName: 'Alfredo Pasta',
         companyName: 'LAKSHMI FOOD',
-        foodType: 'Veg',
+        foodType: "Veg",
         cost: 185,
         id: 26,
     },
