@@ -4,7 +4,7 @@ $navHeight: 50px;
 $navBackGroundColor: purple;
 $navPosition : fixed;
 $navDisplay : flex;
-$navJustifyContent : space-around;
+$navJustifyContent : space-evenly;
 $navZ-Index : 1;
 $navTextColor: white;
 $navLineHeight: 50px;
@@ -14,6 +14,21 @@ $shopcardPosition : relative;
 $shopcardPadding : 5px;
 $shopcardWidth : 50px;
 $shopcardFS : 25px;
+
+// Variables for Search bar
+$searchBarDisplay:flex;
+$searchBarJustifyContent : center;
+$searchBarAlignItems : center;
+
+// Variables for Search bar input
+$searchBarInputWidth : 50vw;
+$searchBarInputMaxWidth : 400px;
+$searchBarInputPadding : 10px;
+$searchBarInputMargin : 1.2rem;
+$searchBarInputBorder : 2px solid #ccc;
+$searchBarInputBorderRadius : 500px;
+$searchBarInputOutline : none;
+$searchBarInputTextAlign : center;
 
 // Variables for styling the shopping card icon within the navigation bar
 $shopcardIconFS : 1.5rem;

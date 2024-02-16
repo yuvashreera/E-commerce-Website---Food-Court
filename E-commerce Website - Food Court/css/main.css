@@ -17,13 +17,37 @@ body {
   background-color: purple;
   position: fixed;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   z-index: 1;
   color: white;
   line-height: 50px;
 }
 .header .header__nav .header__heading {
   cursor: pointer;
+}
+.header .header__nav .searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .header__nav .searchBar .searchBar__input {
+  width: 50vw;
+  max-width: 400px;
+  padding: 10px;
+  margin: 1.2rem;
+  border: 2px solid #ccc;
+  border-radius: 500px;
+  outline: none;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .header .header__nav .searchBar .searchBar__input {
+    max-width: none;
+    width: 100%;
+  }
+}
+.header .header__nav .searchBar .searchBar__input:hover {
+  box-shadow: 4px 2px 5px black;
 }
 .header .header__nav .header__shop_card {
   position: relative;

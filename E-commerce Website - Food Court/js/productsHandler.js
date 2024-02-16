@@ -10,6 +10,7 @@ export const createProductElement =(itemCollection) => {
         // Add the "products" class to the created section element
         productElement.classList.add("products");
         productElement.setAttribute("data-item",`${product.foodType}`);
+        productElement.setAttribute("data-filter",`${product.foodName}`);
     
         // Populate the inner HTML of the product element with data from the product object
         productElement.innerHTML = `

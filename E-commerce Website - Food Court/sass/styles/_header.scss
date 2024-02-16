@@ -15,6 +15,29 @@
         .header__heading{
             cursor: pointer;
         }
+        // Styles for search bar
+        .searchBar{
+            display: $searchBarDisplay;
+            justify-content: $searchBarJustifyContent;
+            align-items: $searchBarAlignItems;
+            .searchBar__input{
+                width : $searchBarInputWidth;
+                max-width: $searchBarInputMaxWidth;
+                padding: $searchBarInputPadding;
+                margin : $searchBarInputMargin;
+                border : $searchBarInputBorder;
+                border-radius: $searchBarInputBorderRadius;
+                outline : $searchBarInputOutline;
+                text-align: $searchBarInputTextAlign;
+                @media (max-width:768px) {
+                    max-width: none;
+                    width : 100%;
+                }
+                &:hover{
+                    box-shadow : 4px 2px 5px black;
+                }
+            }
+        }
         // Styles for the shopping cart section inside the navigation bar
         .header__shop_card{
             position: $shopcardPosition;
