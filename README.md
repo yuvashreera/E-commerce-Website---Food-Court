@@ -55,7 +55,7 @@ The project follows a modular structure. Key components include:
 
 ## Screenshots/Demo
 
-[Will be Insert Screenshots or Demo Link]
+![image](https://github.com/yuvashreera/E-commerce-Website---Food-Court/assets/126389396/a67eed45-2677-42cc-a780-709d61723f4b)]
 
 ## Future Enhancements
 
