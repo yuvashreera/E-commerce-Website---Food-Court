@@ -55,7 +55,13 @@ The project follows a modular structure. Key components include:
 
 ## Screenshots/Demo
 
-![image](https://github.com/yuvashreera/E-commerce-Website---Food-Court/assets/126389396/a67eed45-2677-42cc-a780-709d61723f4b)]
+![image](https://github.com/yuvashreera/E-commerce-Website---Food-Court/assets/126389396/a67eed45-2677-42cc-a780-709d61723f4b)
+![image](https://github.com/yuvashreera/E-commerce-Website---Food-Court/assets/126389396/61de0cd0-7e2c-4f80-9663-c15a5a847ee8)
+![image](https://github.com/yuvashreera/E-commerce-Website---Food-Court/assets/126389396/7067eb53-b7e2-47c6-a4f5-ba5895b1d0f3)
+![image](https://github.com/yuvashreera/E-commerce-Website---Food-Court/assets/126389396/fa26b9b9-7d81-4508-8b69-02dfea6f4e56)
+
+
+
 
 ## Future Enhancements
 
