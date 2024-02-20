@@ -1,11 +1,16 @@
+// Variables for styling header
+$headerPosition: fixed;
+$headerTop: 0;
+$headerLeft: 0;
+$headerWidth: 100%;
+$headerZIndex: 99;
+
 // Variables for styling the navigation bar
 $navWidth: 100%;
 $navHeight: 50px;
 $navBackGroundColor: purple;
-$navPosition : fixed;
 $navDisplay : flex;
 $navJustifyContent : space-evenly;
-$navZ-Index : 1;
 $navTextColor: white;
 $navLineHeight: 50px;
 

@@ -1,0 +1,104 @@
+// Variables for cart
+$cartPosition: fixed;
+$cartTop: 50%;
+$cartLeft: -50%;
+$cartTransform: translate(-50%, -50%);
+$cartWidth: 90%;
+$cartMaxWidth: 450px;
+$cartHeight: 90vh;
+$cartPadding: 5%;
+$cartMargin: 1.5rem auto;
+$cartBackgroundColor: white;
+$cartBorder: 3px solid black;
+$cartBoxShadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+$cartOverflowX: hidden;
+$cartOverflowY: auto;
+$cartDisplay: flex;
+$cartFlexDirection: column;
+
+// Variables for cart title
+$cartTitleTextAlign: center;
+$cartTitleFontSize: 1.5rem;
+$cartTitleFontWeight: bold;
+$cartTitlePadding: 15px;
+$cartTitleBorderBottom: 3px solid rgba(0, 0, 0, 0.1);
+
+// Variables for cart item in the cart content
+$cartContentItemDisplay: grid;
+$cartContentItemColumns: 35% 60% 5%;
+$cartContentItemGap: 1rem;
+$cartContentItemPadding: 10%;
+$cartContentItemBorderBottom: 3px solid rgba(0, 0, 0, 0.1);
+
+// Variables for cart image
+$cartImgMaxWidth: 100%;
+$cartImgHeight: auto;
+$cartImgDisplay: block;
+$cartImgObjectFit: cover;
+$cartImgOutline: none;
+$cartImgBorder: 3px solid rgba(0, 0, 0, 0.1);
+$cartImgPadding: 5px;
+
+// Variables for cart item details
+$cartItemDetailsDisplay: grid;
+$cartItemDetailsRowGap: 0.5rem;
+$cartFoodTitleColor: orange;
+$cartFoodTitleFontWeight: bold;
+$cartFoodTitleFontSize: 1.3rem;
+$cartFoodTitleTextTransform: uppercase;
+$cartItemPriceFontWeight: bold;
+$cartItemPriceFontSize: 1.1rem;
+
+// Variables for cart quantity
+$cartQuantityBorder: 3px solid rgba(0, 0, 0, 0.1);
+$cartQuantityOutline: none;
+$cartQuantityWidth: 2.4rem;
+$cartQuantityFontSize: 1.2rem;
+$cartQuantityTextAlign: center;
+
+// Variables for cart trash
+$cartTrashFontSize: 24px;
+$cartTrashColor: red;
+$cartTrashCursor: pointer;
+$cartTrashDisplay: flex;
+$cartTrashJustifyContent: center;
+$cartTrashAlignItems: center;
+
+// Variables for cart total
+$cartTotalDisplay: flex;
+$cartTotalJustifyContent: flex-end;
+$cartTotalGap: 0.5rem;
+$cartTotalFontSize: 1.2rem;
+$cartTotalPadding: 5%;
+$cartTotalTitleFontWeight: bold;
+
+// Variables for cart proceed products
+$proceedCartProductsFontSize: 1.4rem;
+$proceedCartProductsBackgroundColor: cadetblue;
+$proceedCartProductsColor: white;
+$proceedCartProductsPadding: 5%;
+$proceedCartProductsBorder: none;
+$proceedCartProductsOutline: none;
+
+// Variables for loader
+$loaderHeight: 50px;
+$loaderWidth: 50px;
+$loaderBorderSize: 2px;
+$loaderBorderColor: black;
+$loaderBorderRadius: 50%;
+$loaderTopBorderSize: 4px;
+$loaderTopBorderColor: white;
+$loaderAnimation: proceedOrderLoader 2s linear 0.2s 4;
+$loaderPosition: absolute;
+$loaderTop: 2%;
+$loaderLeft: 40%;
+
+// Variables for cart remove
+$cartRemovePosition: absolute;
+$cartRemoveRight: 0;
+$cartRemoveTop: 0;
+$cartRemoveFontSize: 2rem;
+$cartRemovePadding: 10px;
+
+// Variables for cart active
+$cartActiveLeft: 50%;

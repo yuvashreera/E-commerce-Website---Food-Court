@@ -1,19 +1,23 @@
 // Styles for navigation in the header
 .header{
+    position: $headerPosition;
+    top: $headerTop;
+    left: $headerLeft;
+    width: $headerWidth;
+    z-index: $headerZIndex;
     // Styles for the navigation bar
     .header__nav{
         width: $navWidth;
         height: $navHeight;
         background-color: $navBackGroundColor;
-        position: $navPosition;
-        display: $navDisplay;
-        justify-content: $navJustifyContent;
-        z-index: $navZ-Index;
         color: $navTextColor;
         line-height: $navLineHeight;
+        display: $navDisplay;
+        justify-content: $navJustifyContent;
         // Styles for the heading inside the navigation bar
         .header__heading{
             cursor: pointer;
+            font-size: 16px;
         }
         // Styles for search bar
         .searchBar{
@@ -29,10 +33,6 @@
                 border-radius: $searchBarInputBorderRadius;
                 outline : $searchBarInputOutline;
                 text-align: $searchBarInputTextAlign;
-                @media (max-width:768px) {
-                    max-width: none;
-                    width : 100%;
-                }
                 &:hover{
                     box-shadow : 4px 2px 5px black;
                 }

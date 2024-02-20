@@ -1,0 +1,141 @@
+// Cart Styles
+.cart {
+    position: $cartPosition;
+    top: $cartTop;
+    left: $cartLeft;
+    transform: $cartTransform;
+    width: $cartWidth;
+    max-width: $cartMaxWidth;
+    height: $cartHeight;
+    padding: $cartPadding;
+    margin: $cartMargin;
+    background-color: $cartBackgroundColor;
+    border: $cartBorder;
+    box-shadow: $cartBoxShadow;
+    overflow-x: $cartOverflowX;
+    overflow-y: $cartOverflowY;
+    display: $cartDisplay;
+    flex-direction: $cartFlexDirection;
+    // Cart Title Styles
+    .cart__title {
+        text-align: $cartTitleTextAlign;
+        font-size: $cartTitleFontSize;
+        font-weight: $cartTitleFontWeight;
+        padding: $cartTitlePadding;
+        border-bottom: $cartTitleBorderBottom;
+    }
+    // Cart Content Styles
+    .cart__content {
+        // Cart Item Styles
+        .cart__item {
+            display: $cartContentItemDisplay;
+            grid-template-columns: $cartContentItemColumns;
+            gap: $cartContentItemGap;
+            padding: $cartContentItemPadding;
+            border-bottom: $cartContentItemBorderBottom;
+            // Cart Image Styles
+            .cart__img {
+                max-width: $cartImgMaxWidth;
+                height: $cartImgHeight;
+                display: $cartImgDisplay;
+                object-fit: $cartImgObjectFit;
+                outline: $cartImgOutline;
+                border: $cartImgBorder;
+                padding: $cartImgPadding;
+            }
+            // Cart Item Details Styles
+            .cart__item__details {
+                display: $cartItemDetailsDisplay;
+                row-gap: $cartItemDetailsRowGap;
+                // Cart Food Title Styles
+                .cart__food-title {
+                    color: $cartFoodTitleColor;
+                    font-weight: $cartFoodTitleFontWeight;
+                    font-size: $cartFoodTitleFontSize;
+                    text-transform: $cartFoodTitleTextTransform;
+                }
+                // Cart Item Price Styles
+                .cart__item__price {
+                    font-weight: $cartItemPriceFontWeight;
+                    font-size: $cartItemPriceFontSize;
+                }
+                // Cart Quantity Styles
+                .cart__quantity {
+                    border: $cartQuantityBorder;
+                    outline: $cartQuantityOutline;
+                    width: $cartQuantityWidth;
+                    font-size: $cartQuantityFontSize;
+                    text-align: $cartQuantityTextAlign;
+                }
+            }
+            // Cart Trash Styles
+            .cart__trash {
+                font-size: $cartTrashFontSize;
+                color: $cartTrashColor;
+                cursor: $cartTrashCursor;
+                display: $cartTrashDisplay;
+                justify-content: $cartTrashJustifyContent;
+                align-items: $cartTrashAlignItems;
+            }
+        }
+    }
+    // Cart Total Styles
+    .cart__total {
+        display: $cartTotalDisplay;
+        justify-content: $cartTotalJustifyContent;
+        gap: $cartTotalGap;
+        font-size: $cartTotalFontSize;
+        padding: $cartTotalPadding;
+
+        .cart__total__title {
+            font-weight: $cartTotalTitleFontWeight;
+        }
+    }
+    // Cart Proceed Products Styles
+    .cart__proceed-products {
+        font-size: $proceedCartProductsFontSize;
+        background-color: $proceedCartProductsBackgroundColor;
+        color: $proceedCartProductsColor;
+        padding: $proceedCartProductsPadding;
+        border: $proceedCartProductsBorder;
+        outline: $proceedCartProductsOutline;
+        cursor : pointer;
+        position: relative;
+        .loader {
+            height: $loaderHeight;
+            width: $loaderWidth;
+            border: $loaderBorderSize solid $loaderBorderColor;
+            border-radius: $loaderBorderRadius;
+            border-top: $loaderTopBorderSize solid $loaderTopBorderColor;
+            animation: $loaderAnimation;
+            position: $loaderPosition;
+            top: $loaderTop;
+            left: $loaderLeft;
+        }
+        @keyframes proceedOrderLoader {
+            0%{
+                transform : rotate(0deg);
+            }
+            100%{
+                transform : rotate(360deg);
+            }
+        }
+        .blur{
+            filter: blur(4px);
+        }
+    }
+    // Cart Remove Styles
+    .cart__remove {
+        cursor : pointer;
+        position: $cartRemovePosition;
+        right: $cartRemoveRight;
+        top: $cartRemoveTop;
+        font-size: $cartRemoveFontSize;
+        padding: $cartRemovePadding;
+    }
+}
+
+// Cart Active Styles
+.cart-active {
+    left: $cartActiveLeft;
+  }  

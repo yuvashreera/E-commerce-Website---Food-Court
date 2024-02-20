@@ -38,7 +38,7 @@
         <header class="header">
             <!-- Main heading, Navigation section, including shopping cart -->
             <nav class="header__nav">
-                <h1 class="header__heading">Yuva's Tasty Treats</h1>
+                <h1 class="header__heading">Yuva's Delights</h1>
                 <!-- Search Bar for searching the products-->
                 <div class="searchBar">
                     <input class="searchBar__input" type="text" role="searchbox" id="search" placeholder="Search Products" size="30" autocomplete="off">
@@ -65,7 +65,7 @@
                 <!-- List of menu categories -->
                 <ul>
                     <li><a href="#" class="menu" data-title="All Products" data-id="All">All</a></li>
-                    <li><a href="#" class="menu" data-title="Favourite" data-id="Fav">Favourite</a></li>
+                    <li><a href="#" class="menu fav" data-title="Favourite" data-id="Fav">Favourite</a></li>
                     <li><a href="#" class="menu" data-title="Vegetarian" data-id="Veg">Veg</a></li>
                     <li><a href="#" class="menu" data-title="Non Vegetarian" data-id="Non-Veg">Non Veg</a></li>
                     <li><a href="#" class="menu" data-title="Juice" data-id="Juice">Juice</a></li>
@@ -85,6 +85,21 @@
             <!-- Products Container Section -->
             <article class="productsContainer">
                 <!-- Dynamically added product sections will go here -->
+            </article>
+
+            <!-- Cart Article Structure -->
+            <article class="cart">
+                <div class="cart__title">Your Cart Products</div>
+                <div class="cart__content">
+                    <!-- Dynamically added cart items will go here -->
+                </div>
+                <div class="cart__total">
+                    <div class="cart__total__title">Total Amount :</div>
+                    <div class="cart__total__amount">0</div>
+                </div>
+                <button class="cart__proceed-products">Proceed
+                </button>
+                <div class="cart__remove fa fa-remove"></div>
             </article>
         </main>
 
