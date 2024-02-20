@@ -1,6 +1,6 @@
 export const itemCollection = [
     {
-        imageSrc: '../images/Alfredo Pasta.jpg',
+        imageSrc: './images/Alfredo Pasta.jpg',
         foodName: 'Alfredo Pasta',
         companyName: 'LAKSHMI FOOD',
         foodType: "Veg",
@@ -8,7 +8,7 @@ export const itemCollection = [
         id: 26,
     },
     {
-        imageSrc: "../images/Veg Nuggets.jpg",
+        imageSrc: "./images/Veg Nuggets.jpg",
         foodName: "Veg Nuggets",
         companyName: "JUICE MALL",
         foodType: "Veg",
@@ -16,7 +16,7 @@ export const itemCollection = [
         id: 34
     },
     {
-        imageSrc: "../images/Onion Uthappam.jpg",
+        imageSrc: "./images/Onion Uthappam.jpg",
         foodName: "Onion Uthappam",
         companyName: "Sri Saivihar",
         foodType: "Veg",
@@ -24,7 +24,7 @@ export const itemCollection = [
         id: 117
     },
     {
-        imageSrc: "../images/Veg Seekh Kebab.jpg",
+        imageSrc: "./images/Veg Seekh Kebab.jpg",
         foodName: "Veg Seekh Kebab",
         companyName: "Tandoori Wala",
         foodType: "Veg",
@@ -32,7 +32,7 @@ export const itemCollection = [
         id: 130
     },
     {
-        imageSrc: "../images/Veg Briyani.jpg",
+        imageSrc: "./images/Veg Briyani.jpg",
         foodName: "Veg Briyani",
         companyName: "Sri Saivihar",
         foodType: "Veg",
@@ -40,7 +40,7 @@ export const itemCollection = [
         id: 106
     },
     {
-        imageSrc: "../images/Tomato Rice.jpg",
+        imageSrc: "./images/Tomato Rice.jpg",
         foodName: "Tomato Rice",
         companyName: "Sri Saivihar",
         foodType: "Veg",
@@ -48,7 +48,7 @@ export const itemCollection = [
         id: 107
     },
     {
-        imageSrc: "../images/Cheese Corn Sandwich.jpg",
+        imageSrc: "./images/Cheese Corn Sandwich.jpg",
         foodName: "Cheese Corn Sandwich",
         companyName: "JUICE MALL",
         foodType: "Veg",
@@ -56,7 +56,7 @@ export const itemCollection = [
         id: 35
     },
     {
-        imageSrc: "../images/Vegetable Tricolour Fried Rice.jpg",
+        imageSrc: "./images/Vegetable Tricolour Fried Rice.jpg",
         foodName: "Vegetable Tricolour Fried Rice",
         companyName: "LAKSHMI FOOD",
         foodType: "Veg",
@@ -64,7 +64,7 @@ export const itemCollection = [
         id: 18
     },
     {
-        imageSrc: "../images/Phulka.jpg",
+        imageSrc: "./images/Phulka.jpg",
         foodName: "Phulka",
         companyName: "LAKSHMI FOOD",
         foodType: "Veg",
@@ -72,7 +72,7 @@ export const itemCollection = [
         id: 25
     },
     {
-        imageSrc: "../images/French Fries.jpg",
+        imageSrc: "./images/French Fries.jpg",
         foodName: "French Fries",
         companyName: "JUICE MALL",
         foodType: "Veg",
@@ -80,7 +80,7 @@ export const itemCollection = [
         id: 33
     },
     {
-        imageSrc: "../images/Punjabi Chicken Gravy.jpg",
+        imageSrc: "./images/Punjabi Chicken Gravy.jpg",
         foodName: "Punjabi Chicken Gravy",
         companyName: "LAKSHMI FOOD",
         foodType: "Non-Veg",
@@ -88,7 +88,7 @@ export const itemCollection = [
         id: 17
     },
     {
-        imageSrc: "../images/Kadai Fry.jpg",
+        imageSrc: "./images/Kadai Fry.jpg",
         foodName: "Kadai Fry",
         companyName: "Pugal Ragu Bawa Tiffen Center",
         foodType: "Non-Veg",
@@ -96,7 +96,7 @@ export const itemCollection = [
         id: 102
     },
     {
-        imageSrc: "../images/Egg Roast.jpg",
+        imageSrc: "./images/Egg Roast.jpg",
         foodName: "Egg Roast",
         companyName: "Pugal Ragu Bawa Tiffen Center",
         foodType: "Non-Veg",
@@ -104,7 +104,7 @@ export const itemCollection = [
         id: 104
     },
     {
-        imageSrc: "../images/Chicken Manchurian Dry.jpg",
+        imageSrc: "./images/Chicken Manchurian Dry.jpg",
         foodName: "Chicken Manchurian Dry",
         companyName: "Tandoori Wala",
         foodType: "Non-Veg",
@@ -112,7 +112,7 @@ export const itemCollection = [
         id: 143
     },
     {
-        imageSrc: "../images/Grilli Chicken Pepper Fry.jpg",
+        imageSrc: "./images/Grilli Chicken Pepper Fry.jpg",
         foodName: "Grilli Chicken Pepper Fry",
         companyName: "Salem Rr Briyani",
         foodType: "Non-Veg",
@@ -120,7 +120,7 @@ export const itemCollection = [
         id: 1
     },
     {
-        imageSrc: "../images/Mutton Briyani.jpg",
+        imageSrc: "./images/Mutton Briyani.jpg",
         foodName: "Mutton Briyani",
         companyName: "Salem Rr Briyani",
         foodType: "Non-Veg",
@@ -128,7 +128,7 @@ export const itemCollection = [
         id: 2
     },
     {
-        imageSrc: "../images/Chicken 65 Briyani.jpg",
+        imageSrc: "./images/Chicken 65 Briyani.jpg",
         foodName: "Chicken 65 Briyani",
         companyName: "Salem Rr Briyani",
         foodType: "Non-Veg",
@@ -136,7 +136,7 @@ export const itemCollection = [
         id: 3
     },
     {
-        imageSrc: "../images/Plain Briyani.jpg",
+        imageSrc: "./images/Plain Briyani.jpg",
         foodName: "Plain Briyani",
         companyName: "Salem Rr Briyani",
         foodType: "Non-Veg",
@@ -144,7 +144,7 @@ export const itemCollection = [
         id: 4
     },
     {
-        imageSrc: "../images/Egg Briyani.jpg",
+        imageSrc: "./images/Egg Briyani.jpg",
         foodName: "Egg Briyani",
         companyName: "Salem Rr Briyani",
         foodType: "Non-Veg",
@@ -152,7 +152,7 @@ export const itemCollection = [
         id: 5
     },
     {
-        imageSrc: "../images/Chicken Briyani.jpg",
+        imageSrc: "./images/Chicken Briyani.jpg",
         foodName: "Chicken Briyani",
         companyName: "Salem Rr Briyani",
         foodType: "Non-Veg",
@@ -160,7 +160,7 @@ export const itemCollection = [
         id: 6
     },
     {
-        imageSrc: "../images/Carrot Juice.jpg",
+        imageSrc: "./images/Carrot Juice.jpg",
         foodName: "Carrot Juice",
         companyName: "JUICE MALL",
         foodType: "Juice",
@@ -168,7 +168,7 @@ export const itemCollection = [
         id: "27",
     },
     {
-        imageSrc: "../images/Orange Juice.jpg",
+        imageSrc: "./images/Orange Juice.jpg",
         foodName: "Orange Juice",
         companyName: "JUICE MALL",
         foodType: "Juice",
@@ -176,7 +176,7 @@ export const itemCollection = [
         id: "28",
     },
     {
-        imageSrc: "../images/Lemon Mint Juice.jpg",
+        imageSrc: "./images/Lemon Mint Juice.jpg",
         foodName: "Lemon Mint Juice",
         companyName: "JUICE MALL",
         foodType: "Juice",
@@ -184,7 +184,7 @@ export const itemCollection = [
         id: "29",
     },
     {
-        imageSrc: "../images/Pineapple Lime Juice.jpg",
+        imageSrc: "./images/Pineapple Lime Juice.jpg",
         foodName: "Pineapple Lime Juice",
         companyName: "JUICE MALL",
         foodType: "Juice",
@@ -192,7 +192,7 @@ export const itemCollection = [
         id: "30",
     },
     {
-        imageSrc: "../images/Watermelon Lime Juice.jpg",
+        imageSrc: "./images/Watermelon Lime Juice.jpg",
         foodName: "Watermelon Lime Juice",
         companyName: "JUICE MALL",
         foodType: "Juice",
@@ -200,7 +200,7 @@ export const itemCollection = [
         id: "31",
     },
     {
-        imageSrc: "../images/Blue Mojito.jpg",
+        imageSrc: "./images/Blue Mojito.jpg",
         foodName: "Blue Mojito",
         companyName: "JUICE MALL",
         foodType: "Juice",
@@ -208,7 +208,7 @@ export const itemCollection = [
         id: "32",
     },
     {
-        imageSrc: "../images/Milk Halwa.jpg",
+        imageSrc: "./images/Milk Halwa.jpg",
         foodName: "Milk Halwa",
         companyName: "Shri Gupta Sweets",
         foodType: "Sweet",
@@ -216,7 +216,7 @@ export const itemCollection = [
         id: "67"
     },
     {
-        imageSrc: "../images/Badam Halwa.jpg",
+        imageSrc: "./images/Badam Halwa.jpg",
         foodName: "Badam Halwa",
         companyName: "Shri Gupta Sweets",
         foodType: "Sweet",
@@ -224,7 +224,7 @@ export const itemCollection = [
         id: "68"
     },
     {
-        imageSrc: "../images/Badam Sonpapdi.jpg",
+        imageSrc: "./images/Badam Sonpapdi.jpg",
         foodName: "Badam Sonpapdi",
         companyName: "Shri Gupta Sweets",
         foodType: "Sweet",
@@ -232,7 +232,7 @@ export const itemCollection = [
         id: "69"
     },
     {
-        imageSrc: "../images/Laddu.jpg",
+        imageSrc: "./images/Laddu.jpg",
         foodName: "Laddu",
         companyName: "Shri Gupta Sweets",
         foodType: "Sweet",
@@ -240,7 +240,7 @@ export const itemCollection = [
         id: "70"
     },
     {
-        imageSrc: "../images/Malai Doda.jpg",
+        imageSrc: "./images/Malai Doda.jpg",
         foodName: "Malai Doda",
         companyName: "Shri Gupta Sweets",
         foodType: "Sweet",
@@ -248,7 +248,7 @@ export const itemCollection = [
         id: "71"
     },
     {
-        imageSrc: "../images/Raskadam.jpg",
+        imageSrc: "./images/Raskadam.jpg",
         foodName: "Raskadam",
         companyName: "Shri Gupta Sweets",
         foodType: "Sweet",
@@ -256,7 +256,7 @@ export const itemCollection = [
         id: "72"
     },
     {
-        imageSrc: "../images/Mundri Cake.jpg",
+        imageSrc: "./images/Mundri Cake.jpg",
         foodName: "Mundri Cake",
         companyName: "Shri Gupta Sweets",
         foodType: "Sweet",
@@ -264,7 +264,7 @@ export const itemCollection = [
         id: "73"
     },
     {
-        imageSrc: "../images/Mysore Pak.jpg",
+        imageSrc: "./images/Mysore Pak.jpg",
         foodName: "Mysore Pak",
         companyName: "Shri Gupta Sweets",
         foodType: "Sweet",
@@ -272,7 +272,7 @@ export const itemCollection = [
         id: "74"
     },
     {
-        imageSrc: "../images/Pista Roll.jpg",
+        imageSrc: "./images/Pista Roll.jpg",
         foodName: "Pista Roll",
         companyName: "Shri Gupta Sweets",
         foodType: "Sweet",
@@ -280,7 +280,7 @@ export const itemCollection = [
         id: "75"
     },
     {
-        imageSrc: "../images/Rasgulla.jpg",
+        imageSrc: "./images/Rasgulla.jpg",
         foodName: "Rasgulla",
         companyName: "Shri Gupta Sweets",
         foodType: "Sweet",
@@ -288,7 +288,7 @@ export const itemCollection = [
         id: "76"
     },
     {
-        imageSrc: "../images/Jamoon.jpg",
+        imageSrc: "./images/Jamoon.jpg",
         foodName: "Jamoon",
         companyName: "Shri Gupta Sweets",
         foodType: "Sweet",
@@ -296,7 +296,7 @@ export const itemCollection = [
         id: "77"
     },
     {
-        imageSrc: "../images/Badusa.jpg",
+        imageSrc: "./images/Badusa.jpg",
         foodName: "Badusa",
         companyName: "Shri Gupta Sweets",
         foodType: "Sweet",
@@ -304,7 +304,7 @@ export const itemCollection = [
         id: "78"
     },
     {
-        imageSrc: "../images/Malaigulla.jpg",
+        imageSrc: "./images/Malaigulla.jpg",
         foodName: "Malaigulla",
         companyName: "Shri Gupta Sweets",
         foodType: "Sweet",
@@ -312,7 +312,7 @@ export const itemCollection = [
         id: "79"
     },
     {
-        imageSrc: "../images/Sweet Corn Chicken Soup.jpg",
+        imageSrc: "./images/Sweet Corn Chicken Soup.jpg",
         foodName: "Sweet corn Chicken Soup",
         companyName: "LAKSHMI FOOD",
         foodType: "Soup",
@@ -320,7 +320,7 @@ export const itemCollection = [
         id: 13
     },
     {
-        imageSrc: "../images/Vegetable Soup.jpg",
+        imageSrc: "./images/Vegetable Soup.jpg",
         foodName: "Vegetable Soup",
         companyName: "Sri Saivihar",
         foodType: "Soup",
@@ -328,7 +328,7 @@ export const itemCollection = [
         id: 119
     },
     {
-        imageSrc: "../images/Chicken Hot And Sour Soup.jpg",
+        imageSrc: "./images/Chicken Hot And Sour Soup.jpg",
         foodName: "Chicken Hot and Sour Soup",
         companyName: "Tandoori Wala",
         foodType: "Soup",
@@ -336,7 +336,7 @@ export const itemCollection = [
         id: 136
     },
     {
-        imageSrc: "../images/Tomato Soup.jpg",
+        imageSrc: "./images/Tomato Soup.jpg",
         foodName: "Tomato Soup",
         companyName: "Sri Saivihar",
         foodType: "Soup",
@@ -344,7 +344,7 @@ export const itemCollection = [
         id: "118"
     },
     {
-        imageSrc: "../images/Cream of Chicken Soup.jpg",
+        imageSrc: "./images/Cream of Chicken Soup.jpg",
         foodName: "Cream of Chicken Soup",
         companyName: "Tandoori Wala",
         foodType: "Soup",
@@ -352,7 +352,7 @@ export const itemCollection = [
         id: "137"
     },
     {
-        imageSrc: "../images/Chicken Lemon Coriander.jpg",
+        imageSrc: "./images/Chicken Lemon Coriander.jpg",
         foodName: "Chicken Lemon Coriander",
         companyName: "Tandoori Wala",
         foodType: "Soup",
@@ -360,7 +360,7 @@ export const itemCollection = [
         id: "138"
     },
     {
-        imageSrc: "../images/Cheesy Comfort.jpg",
+        imageSrc: "./images/Cheesy Comfort.jpg",
         foodName: "Cheesy Comfort",
         companyName: "Pizza Hut",
         foodType: "Pizza",
@@ -368,7 +368,7 @@ export const itemCollection = [
         id: "94"
     },
     {
-        imageSrc: "../images/Veggie Supreme.jpg",
+        imageSrc: "./images/Veggie Supreme.jpg",
         foodName: "Veggie Supreme",
         companyName: "Pizza Hut",
         foodType: "Pizza",
@@ -376,7 +376,7 @@ export const itemCollection = [
         id: "90"
     },
     {
-        imageSrc: "../images/Chicken Tikka.jpg",
+        imageSrc: "./images/Chicken Tikka.jpg",
         foodName: "Chicken Tikka",
         companyName: "Pizza Hut",
         foodType: "Pizza",
@@ -384,7 +384,7 @@ export const itemCollection = [
         id: "92"
     },
     {
-        imageSrc: "../images/Triple Chicken Feast.jpg",
+        imageSrc: "./images/Triple Chicken Feast.jpg",
         foodName: "Triple Chicken Feast",
         companyName: "Pizza Hut",
         foodType: "Pizza",
@@ -392,7 +392,7 @@ export const itemCollection = [
         id: "93"
     },
     {
-        imageSrc: "../images/Margherita.jpg",
+        imageSrc: "./images/Margherita.jpg",
         foodName: "Margherita",
         companyName: "Pizza Hut",
         foodType: "Pizza",
@@ -400,7 +400,7 @@ export const itemCollection = [
         id: 85
     },
     {
-        imageSrc: "../images/Chicken Sausage.jpg",
+        imageSrc: "./images/Chicken Sausage.jpg",
         foodName: "Chicken Sausage",
         companyName: "Pizza Hut",
         foodType: "Pizza",
@@ -408,7 +408,7 @@ export const itemCollection = [
         id: 91
     },
     {
-        imageSrc: "../images/Vanilla Choco Kelloggs.jpg",
+        imageSrc: "./images/Vanilla Choco Kelloggs.jpg",
         foodName: "Vanilla Choco Kelloggs",
         companyName: "Cream & Fudge",
         foodType: "IceCream",
@@ -416,7 +416,7 @@ export const itemCollection = [
         id: "55"
     },
     {
-        imageSrc: "../images/Strawberry Fruit Cream.jpg",
+        imageSrc: "./images/Strawberry Fruit Cream.jpg",
         foodName: "Strawberry Fruit Cream",
         companyName: "Cream & Fudge",
         foodType: "IceCream",
@@ -424,7 +424,7 @@ export const itemCollection = [
         id: "53"
     },
     {
-        imageSrc: "../images/Fig & Honey Dry Fruit Cream.jpg",
+        imageSrc: "./images/Fig & Honey Dry Fruit Cream.jpg",
         foodName: "Fig & Honey Dry Fruit Cream",
         companyName: "Cream & Fudge",
         foodType: "IceCream",
@@ -432,7 +432,7 @@ export const itemCollection = [
         id: "54"
     },
     {
-        imageSrc: "../images/Cotton Candy Scoop.jpg",
+        imageSrc: "./images/Cotton Candy Scoop.jpg",
         foodName: "Cotton Candy Scoop",
         companyName: "Cream & Fudge",
         foodType: "IceCream",
@@ -440,7 +440,7 @@ export const itemCollection = [
         id: 39
     },
     {
-        imageSrc: "../images/Swiss Choco Brownie.jpg",
+        imageSrc: "./images/Swiss Choco Brownie.jpg",
         foodName: "Swiss Choco Brownie",
         companyName: "Cream & Fudge",
         foodType: "IceCream",
@@ -448,7 +448,7 @@ export const itemCollection = [
         id: 51
     },
     {
-        imageSrc: "../images/Fruit Paradise.jpg",
+        imageSrc: "./images/Fruit Paradise.jpg",
         foodName: "Fruit Paradise",
         companyName: "Cream & Fudge",
         foodType: "IceCream",
@@ -456,7 +456,7 @@ export const itemCollection = [
         id: 52
     },
     {
-        imageSrc: "../images/Sponge Cake.jpg",
+        imageSrc: "./images/Sponge Cake.jpg",
         foodName: "Sponge Cake",
         companyName: "Henry & Wolsey",
         foodType: "Cake",
@@ -464,7 +464,7 @@ export const itemCollection = [
         id: "56"
     },
     {
-        imageSrc: "../images/Fruit Cake.jpg",
+        imageSrc: "./images/Fruit Cake.jpg",
         foodName: "Fruit Cake",
         companyName: "Henry & Wolsey",
         foodType: "Cake",
@@ -472,7 +472,7 @@ export const itemCollection = [
         id: "57"
     },
     {
-        imageSrc: "../images/Jam Roll Cake.jpg",
+        imageSrc: "./images/Jam Roll Cake.jpg",
         foodName: "Jam Roll Cake",
         companyName: "Henry & Wolsey",
         foodType: "Cake",
@@ -480,7 +480,7 @@ export const itemCollection = [
         id: "58"
     },
     {
-        imageSrc: "../images/Red Velvet Cup Cake.jpg",
+        imageSrc: "./images/Red Velvet Cup Cake.jpg",
         foodName: "Red Velvet Cup Cake",
         companyName: "Henry & Wolsey",
         foodType: "Cake",
@@ -488,7 +488,7 @@ export const itemCollection = [
         id: "59"
     },
     {
-        imageSrc: "../images/Fresh Cream Black Forest.jpg",
+        imageSrc: "./images/Fresh Cream Black Forest.jpg",
         foodName: "Fresh Cream Black Forest",
         companyName: "Shris Cake Zone",
         foodType: "Cake",
@@ -496,7 +496,7 @@ export const itemCollection = [
         id: "60"
     },
     {
-        imageSrc: "../images/Butterscotch.jpg",
+        imageSrc: "./images/Butterscotch.jpg",
         foodName: "Butterscotch",
         companyName: "Shris Cake Zone",
         foodType: "Cake",
@@ -504,7 +504,7 @@ export const itemCollection = [
         id: "61"
     },
     {
-        imageSrc: "../images/Red Velvet.jpg",
+        imageSrc: "./images/Red Velvet.jpg",
         foodName: "Red Velvet",
         companyName: "Shris Cake Zone",
         foodType: "Cake",
@@ -512,7 +512,7 @@ export const itemCollection = [
         id: "62"
     },
     {
-        imageSrc: "../images/Red Velvet Pastry.jpg",
+        imageSrc: "./images/Red Velvet Pastry.jpg",
         foodName: "Red Velvet Pastry",
         companyName: "Shris Cake Zone",
         foodType: "Cake",
@@ -520,7 +520,7 @@ export const itemCollection = [
         id: "63"
     },
     {
-        imageSrc: "../images/Classic Walnut Brownie.jpg",
+        imageSrc: "./images/Classic Walnut Brownie.jpg",
         foodName: "Classic Walnut Brownie",
         companyName: "Shris Cake Zone",
         foodType: "Cake",
@@ -528,7 +528,7 @@ export const itemCollection = [
         id: "64"
     },
     {
-        imageSrc: "../images/Apple Pie.jpg",
+        imageSrc: "./images/Apple Pie.jpg",
         foodName: "Apple Pie",
         companyName: "Shris Cake Zone",
         foodType: "Cake",
@@ -536,7 +536,7 @@ export const itemCollection = [
         id: "65"
     },
     {
-        imageSrc: "../images/Kitkat Cake.jpg",
+        imageSrc: "./images/Kitkat Cake.jpg",
         foodName: "Kitkat Cake",
         companyName: "Shris Cake Zone",
         foodType: "Cake",
