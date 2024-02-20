@@ -7,6 +7,9 @@
     text-align : $productCategoryTextAlign;
     background-color: $productCategoryBG;
     padding : $productCategoryPadding;
+    @media screen and (width: 280px) {
+        display: none;
+    }
 }
 
 // Products Container Styling
@@ -68,6 +71,9 @@
             &:hover{
                 color: yellow;
                 transition : all 0.3s linear 0.2s;
+            }
+            @media screen and (width : 280px){
+                display: none;
             }
         }
         // Styles for the food names

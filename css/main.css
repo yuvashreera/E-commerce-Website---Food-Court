@@ -27,6 +27,13 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+@media screen and (width: 280px) {
+  .header .header__nav {
+    line-height: normal;
+    justify-content: space-between;
+    padding: 3%;
+  }
+}
 .header .header__nav .header__heading {
   cursor: pointer;
   font-size: 16px;
@@ -49,12 +56,22 @@ body {
 .header .header__nav .searchBar .searchBar__input:hover {
   box-shadow: 4px 2px 5px black;
 }
+@media screen and (width: 280px) {
+  .header .header__nav .searchBar {
+    order: 2;
+  }
+}
 .header .header__nav .header__shop_card {
   position: relative;
   padding: 5px;
   width: 50px;
   cursor: pointer;
   font-size: 25px;
+}
+@media screen and (width: 280px) {
+  .header .header__nav .header__shop_card {
+    padding-left: 10%;
+  }
 }
 .header .header__nav .header__shop_card .card {
   font-size: 1.5rem;
@@ -102,6 +119,11 @@ body {
   transform: scale(120%);
   transition: all 1s ease-in-out 0.5s;
 }
+@media screen and (width: 280px) {
+  .slider .slider__banner h2 {
+    font-size: 24px;
+  }
+}
 @keyframes slideAnimation {
   0% {
     transform: translateY(-100%);
@@ -116,6 +138,12 @@ body {
   font-weight: bold;
   text-shadow: 2px 2px 1px black;
   font-style: oblique;
+}
+@media screen and (width: 280px) {
+  .slider .slider__banner p {
+    font-size: 14px;
+    padding: 5%;
+  }
 }
 
 .menuItem {
@@ -141,6 +169,11 @@ body {
 .menuItem ul li a:hover {
   color: orange;
 }
+@media screen and (width: 280px) {
+  .menuItem {
+    display: none;
+  }
+}
 
 .productsCategory {
   font-size: 50px;
@@ -152,6 +185,11 @@ body {
   text-align: center;
   background-color: orange;
   padding: 5px;
+}
+@media screen and (width: 280px) {
+  .productsCategory {
+    display: none;
+  }
 }
 
 .productsContainer {
@@ -210,6 +248,11 @@ body {
 .productsContainer .products .fav-item:hover {
   color: yellow;
   transition: all 0.3s linear 0.2s;
+}
+@media screen and (width: 280px) {
+  .productsContainer .products .fav-item {
+    display: none;
+  }
 }
 .productsContainer .products .foodName {
   text-align: center;
