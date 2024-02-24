@@ -14,11 +14,6 @@
         line-height: $navLineHeight;
         display: $navDisplay;
         justify-content: $navJustifyContent;
-        @media screen and (width: 280px) {
-            line-height: normal;
-            justify-content: space-between;
-            padding : 3%;
-        }
         // Styles for the heading inside the navigation bar
         .header__heading{
             cursor: pointer;
@@ -42,9 +37,6 @@
                     box-shadow : 4px 2px 5px black;
                 }
             }
-            @media screen and (width: 280px) {
-                order : 2;
-            }
         }
         // Styles for the shopping cart section inside the navigation bar
         .header__shop_card{
@@ -53,9 +45,6 @@
             width:$shopcardWidth;
             cursor: pointer;
             font-size: $shopcardFS;
-            @media screen and (width: 280px) {
-               padding-left: 10%;
-            }
             // Styles for the shopping cart icon
             .card{
                 font-size: $shopcardIconFS;
@@ -73,6 +62,15 @@
                 border-radius : $shopcardItemsBorderRadius;
                 background-color : $shopcardItemsBG;
                 line-height : $shopcardItemsLineHeight;
+            }
+        }
+    }
+    // Mobile view
+    @media screen and (max-width: 390px) {
+        .header__nav{
+            .header__heading{
+                line-height: normal;
+                padding: 5px;
             }
         }
     }

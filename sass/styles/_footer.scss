@@ -5,4 +5,10 @@
     background-color: $footerBG;
     color: $footerColor;
     text-align: $footerTextAlign;
+    // Mobile view
+    @media screen and (max-width: 290px) {
+        .no-wrap{
+            white-space: nowrap;
+        }
+    }
 }

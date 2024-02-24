@@ -1,5 +1,6 @@
 // Slider styles
 .slider{
+    width: $sliderWidth;
     min-height: $sliderMinHeight;
     background-image: url($sliderBGImage);
     background-position: $sliderBGPosition;
@@ -24,9 +25,6 @@
                 transform : scale(120%);
                 transition : all 1s ease-in-out 0.5s;
             }
-            @media screen and (width: 280px) {
-                font-size: 24px;
-            }
         }
         // Animation for h2
         @keyframes slideAnimation {
@@ -44,9 +42,26 @@
             font-weight: $sliderBannerPFontWeight; 
             text-shadow: $sliderBannerPTextShadow;
             font-style: $sliderBannerPFontStyle;
-            @media screen and (width: 280px) {
-                font-size: 14px;
-                padding: 5%;
+        }
+    }
+    // Media query for small screens
+    @media screen and (max-width: 485px) {
+        .slider__banner {
+            h2 {
+                font-size: 50px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+    @media screen and (max-width: 345px) {
+        .slider__banner {
+            h2 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 10px;
             }
         }
     }

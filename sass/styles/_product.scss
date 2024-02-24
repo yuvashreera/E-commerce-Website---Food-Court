@@ -7,8 +7,8 @@
     text-align : $productCategoryTextAlign;
     background-color: $productCategoryBG;
     padding : $productCategoryPadding;
-    @media screen and (width: 280px) {
-        display: none;
+    @media screen and (max-width: 485px) {
+        font-size: 30px;
     }
 }
 
@@ -96,5 +96,9 @@
             justify-content: $costJustifyContent;
             color: $costColor;
         }
+    }
+    // Mobile View
+    @media screen and (max-width: 290px) {
+        display: flow-root;
     }
 }
